@@ -2094,7 +2094,7 @@ input, select, textarea {
 			}
 
 			.image.thumb:hover:before {
-				background: url("images/overlay1.png"), url("images/overlay1.png");
+				background: url(""), url("");
 				opacity: 1.0;
 			}
 
@@ -3219,3 +3219,25 @@ input, select, textarea {
 			}
 
 	}
+
+	.my-button {
+		display: inline-block;
+		padding: 8px 8px;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		cursor: pointer;
+		border: 2px solid #3498db;
+		color: #fff;
+		background-color: #3498db;
+		border-radius: 5px;
+		transition: background-color 0.3s, color 0.3s;
+		margin-right: 10px;
+	  }
+  
+	  
+	  .my-button:hover {
+		background-color: #2980b9;
+		border-color: #2980b9;
+	  }
